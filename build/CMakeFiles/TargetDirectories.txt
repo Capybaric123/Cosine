@@ -1,0 +1,3 @@
+/home/void/dev/opengl/build/CMakeFiles/opengl.dir
+/home/void/dev/opengl/build/CMakeFiles/edit_cache.dir
+/home/void/dev/opengl/build/CMakeFiles/rebuild_cache.dir
