@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/opengl.dir/link.d CMakeFiles/opengl.dir/src/gl.c.o CMakeFiles/opengl.dir/src/main.c.o -o opengl  -Wl,-rpath,/home/void/dev/opengl/lib /home/void/dev/opengl/lib/libglfw.so -lGL -lX11 -lpthread -lXrandr -lXi -ldl
