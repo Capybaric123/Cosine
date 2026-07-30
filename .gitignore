@@ -9,5 +9,8 @@
 # Environment stuff
 compile_commands.json
 
-# Ignore the build folder
+# Ignore the build folder and everything inside of it
 /build/
+
+# Ignore .cache folder
+/.cache/
