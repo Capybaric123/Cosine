@@ -10,4 +10,4 @@
 compile_commands.json
 
 # Ignore the build folder
-build/*.*
+/build/
