@@ -4,6 +4,8 @@ what?
 
 C99 FOR THE WIN BABY!
 
+STATS:
+
 ---
 ```
       51 text files.
