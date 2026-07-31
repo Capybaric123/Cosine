@@ -3,6 +3,7 @@
 
 #include "log.h"
 #include "fbSizeCallback.h"
+#include "processInput.h"
 
 int main()
 {
@@ -49,9 +50,14 @@ int main()
         glClearColor(0.2f, 0.2f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
+        processInput(window);
+
         glfwPollEvents();
         glfwSwapBuffers(window);
     }
+
+    glfwDestroyWindow(window);
+    glfwTerminate();
 
     return 0;
 }
